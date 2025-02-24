@@ -1,4 +1,4 @@
-/* Google Font CDN Link */
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
 *{
   margin: 0;
@@ -8,7 +8,6 @@
   scroll-behavior: smooth;
 }
 
-/* Custom Scroll Bar CSS */
 ::-webkit-scrollbar {
     width: 10px;
 }
@@ -24,7 +23,7 @@
 ::-webkit-scrollbar-thumb:hover {
     background: #4070f4;
 }
-/* navbar styling */
+
 nav{
   position: fixed;
   width: 100%;
@@ -85,7 +84,6 @@ nav.sticky .media-icons a{
   color: #FFF;
 }
 
-/* Side Navigation Menu Button CSS */
 nav .menu-btn,
 .navbar .menu .cancel-btn{
   position: absolute;
@@ -107,7 +105,6 @@ nav.sticky .menu-btn{
   color: #fff;
 }
 
-/* home section styling */
 .home{
   height: 100vh;
   width: 100%;
@@ -166,9 +163,6 @@ nav.sticky .menu-btn{
   color: #4070f4;
 }
 
-/* About Section Styling */
-/* Those Elements Where We Have Apply Same CSS,
- I'm Selecting Directly 'Section Tag' and 'Class'  */
 section{
   padding-top: 40px;
 }
@@ -253,7 +247,6 @@ section .button button:hover{
   color: #4070f4;
 }
 
- /* My Skills CSS */
  .skills{
    background: #F0F8FF;
  }
@@ -307,7 +300,6 @@ section .button button:hover{
   color: #4070f4;
 }
 
-/* Contact Me CSS */
 .contact{
   background: #F0F8FF;
 }
@@ -321,7 +313,6 @@ section .button button:hover{
   margin: auto;
 }
 
-/* Footer CSS */
 footer{
   background: #4070f4;
   padding: 15px 0;
@@ -341,7 +332,6 @@ footer .text span a:hover{
   text-decoration: underline;
 }
 
-/* Scroll TO Top Button CSS */
 .scroll-button a{
   position: fixed;
   bottom: 20px;
@@ -355,7 +345,6 @@ footer .text span a:hover{
   display: none;
 }
 
-/* Responsive Media Query */
 @media (max-width: 1190px) {
   section .content{
     width: 85%;
